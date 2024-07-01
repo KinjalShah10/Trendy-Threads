@@ -1,0 +1,17 @@
+
+import './App.css';
+import Navigation from './Customer/Components/Navigation/Navigation';
+import HomePage from './Customer/Pages/HomePage/HomePage';
+//import HomeCarousel from './Customer/Pages/'
+function App() {
+  return (
+    <div className="">
+      <Navigation/>
+    <div>
+      <HomePage/>
+    </div>
+    </div>
+  );
+}
+
+export default App;
